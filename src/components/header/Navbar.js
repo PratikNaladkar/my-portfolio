@@ -1,8 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import {useState} from "react";
-import {signOut} from "firebase/auth";
-import {auth} from "../../firebase-config.js";
 import Container from 'react-bootstrap/Container';
 import { Navbar as BootstrapNavbar, Nav } from 'react-bootstrap'
 import {NavLink} from "react-router-dom";
