@@ -7,16 +7,12 @@
     height: 100%;
     flex-shrink: 0;
     position: relative;
-    margin: 10px;
-    border-radius: 10px;
     transition: transform .25s, box-shadow .25s, background-color .25s, color .25s, -webkit-transform .25s;
-    box-shadow: 0px 0px 2px #1c2a47;
-  
+    margin: 5px;
     &:hover,
     &:active,
     &:focus {
       transition: transform .25s, box-shadow .25s, background-color .25s, color .25s, -webkit-transform .25s;
-      box-shadow: 0px 0px 1px 3px #618feb;
       .project-card-bg-image {
         transform: scale(1.08);
         transition: transform .20s;
@@ -41,7 +37,6 @@
   
       /* text-shadow: 0 0 10px #000, 0 0 0px #000, 0 0 5px #000; */
       background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .7));
-      border-radius: 10px;
   
       .project-card-title {
         margin-top: auto;

@@ -12,7 +12,7 @@ function Navbar() {
       <div className='d-flex site-header py-2'>
       {/* <img src="party_hat1.webp" href="" className='mb-2 me-auto' id="party" alt="" width="35" height="35"/> */}
       <BootstrapNavbar.Brand className="ms-auto me-auto my-auto brand-title" id="brand-title-name">
-      NIPUN RAMANI</BootstrapNavbar.Brand>
+      PRATIK NALADKAR</BootstrapNavbar.Brand>
        <Nav className="ms-auto me-auto"
                     style={{maxHeight:'100px'}}>
        <Nav.Link className="mleft-0" id="nav-link"  href="/about">about</Nav.Link>
