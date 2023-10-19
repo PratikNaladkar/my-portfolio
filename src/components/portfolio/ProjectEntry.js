@@ -5,7 +5,7 @@ const ProjectEntry = ({ project }) => {
   return (
     <Link to={project.link} className="project-card">
       <div className="project-card-bg-image">
-      <img width="300px" loading="lazy" src={project.preview} style={{aspectRatio:"1/1.04"}} />
+      <img  width="100%" height="100%" loading="lazy" src={project.preview} style={{aspectRatio:"1/1"}} />
       </div>
       <div className="project-card-description">
       
